@@ -1,0 +1,13 @@
+app = "quiver-keeper"
+primary_region = "fra"
+
+[build]
+  [build.args]
+    NODE_VERSION = "20"
+
+[[services]]
+  internal_port = 3000
+  protocol = "tcp"
+
+[env]
+  NODE_ENV = "production"
