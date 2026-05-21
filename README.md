@@ -70,3 +70,10 @@ Quiver started as an experiment. Forks, PRs, and feedback welcome.
 ## License
 
 MIT
+
+## Dependencies
+
+```bash
+forge install OpenZeppelin/openzeppelin-contracts
+forge install foundry-rs/forge-std
+```
