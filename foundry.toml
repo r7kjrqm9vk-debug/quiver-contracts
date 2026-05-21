@@ -1,0 +1,11 @@
+[profile.default]
+src = "src"
+out = "out"
+libs = ["lib"]
+remappings = ["@openzeppelin/=lib/openzeppelin-contracts/"]
+
+[rpc_endpoints]
+robinhood = "https://rpc.testnet.chain.robinhood.com/rpc"
+
+[etherscan]
+robinhood = { key = "placeholder", url = "https://explorer.testnet.chain.robinhood.com/api" }
